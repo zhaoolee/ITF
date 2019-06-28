@@ -13,8 +13,8 @@ timezone: Asia/Shenzhen
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zhaoolee.github.io/ITF/docs/
-root: /docs/
+url: https://zhaoolee.github.io/ITF/
+root: /ITF/docs/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
