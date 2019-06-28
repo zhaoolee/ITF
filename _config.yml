@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 《IT金融修炼手册》
-subtitle:
-description:
-keywords:
+title: 《程序员学金融》
+subtitle: IT金融 修炼手册 
+description: 程序员视角 学习 金融行业的规则
+keywords: zhaoolee, programmer, learn,financial
 author: zhaoolee
 language: zh-CN
 timezone: Asia/Shenzhen
