@@ -1,3 +1,3 @@
 ## 发布页面
 
-[https://github.com/zhaoolee/ITF](https://github.com/zhaoolee/ITF)
+[https://zhaoolee.github.io/ITF/](https://zhaoolee.github.io/ITF/)
