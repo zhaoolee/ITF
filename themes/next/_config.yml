@@ -99,7 +99,7 @@ creative_commons:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
+  enable: true
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
@@ -117,7 +117,7 @@ disable_baidu_transformation: false
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -197,8 +197,8 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/zhaoolee || github
+  E-Mail: mailto:zhaoolee@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -303,7 +303,7 @@ text_align:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post / page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -341,9 +341,9 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
     style:
 
@@ -674,6 +674,7 @@ gitalk:
   client_secret: 29c76b2c8208d81a89fd29d73a4ad439f1f876cf  # Github Application Client Secret
   admin_user: zhaoolee  # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
+  id: location.pathname #分享路径
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
@@ -1185,7 +1186,7 @@ vendors:
   # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
   # gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
   # md5: //cdn.jsdelivr.net/npm/js-md5@0/src/md5.min.js
-  gitalk_js:
+  gitalk_js: 
   gitalk_css:
   md5:
 
